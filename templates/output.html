@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <!-- <head>
+        <title>List of Courses</title> -->
+        <!-- <link rel="stylesheet" href="{{ url_for('static', filename = 'styles.css' ) }}"> -->
+    <!-- </head> -->
+    <body>
+        <ul> 
+            {% for c in courses %}
+                <li>{{ c }}<br></li>
+            {% endfor %}
+        </ul> 
+        <!-- <img src="{{ url_for('static', filename = 'image.png' ) }}" alt="Flask" width="1400"> -->
+    </body>
+</html>

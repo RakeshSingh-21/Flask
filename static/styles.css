@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(34, 159, 205);
+    font-size: 25px;
+    
+}
+
+img{
+    /* background-image:url('image.png') ; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
